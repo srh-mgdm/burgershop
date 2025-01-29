@@ -1,22 +1,32 @@
 .main {
+  background-color: #141414;
+  width: 100vw;
+  height: 100vh;
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.desc{
+  color: white;
+  font-size: 1.5rem;
+  margin-top: 40px;
+}
+.container{
+  display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
-  padding: 4rem 0;
+  /* border: 2px solid red; */
+  margin-top: 40px;
 }
 
-.title {
-  line-height: 1.15;
-  font-size: 4rem;
+.image{
+  width: 200px;
+  height: 200px;
+  
 }
 
-.title a {
-  color: #0070f3;
-  text-decoration: none;
-}
 
-.title a:hover, .title a:focus, .title a:active {
-  text-decoration: underline;
-}
+
+
+

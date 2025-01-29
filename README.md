@@ -1,0 +1,1 @@
+The objective of this small project is to practice using the inverse data flow mechanism, which allows transmitting information from a child element to a parent element.
